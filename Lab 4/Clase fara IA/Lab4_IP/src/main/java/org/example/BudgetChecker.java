@@ -33,7 +33,7 @@ public class BudgetChecker {
                 this.totalPrice +=price;
                 System.out.println("Produsul "+product.getName()+" a fost adaugat cu succes!");
                 if(!isInBudget(price)){
-                    System.out.println("[AVERTISMENT] Costul total al produselor trece peste bugetul setat");
+                    System.out.println("[AVERTISMENT] Costul total al produselor trece sau atinge bugetul setat");
                 }
             }
     }
